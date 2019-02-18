@@ -38,7 +38,7 @@ typedef ExpRBM MusicalRBM;
 typedef ExpCD MusicalCD;
 
 // learn features using RBM
-MusicalRBM learnFeatures( UnlabeledData<RealVector> &data,     // musical training set (usually magnitude spectrum) 
+MusicalRBM learnFeatures( UnlabeledData<RealVector> &data,     // musical training set (usually magnitude spectrum)
                           size_t numberOfHidden,              // dimensionality of the learned features
                           unsigned int numIterations,         // number of iterations for training
                           unsigned int numTrials,             // number of trials over the training set
