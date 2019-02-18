@@ -1,4 +1,6 @@
 # Extracting musical features using Restricted Boltzmann Machines
+An approach for unsupervised learning of musical features using Restricted Boltzmann Machines (RBMs) is investigated and measured against two other popular features for music. Specifically, we train four RBMs to represent a piece of music as a series of 10-, 30- or 50-dimensional vectors which can the be used for genre classification or other musical information retrieval tasks.
+
 This is a project I did in 2011 during my master studies at the [Department of Computer Science, University of Copenhagen (DIKU)](http://diku.dk/). The code and the report is published here on Github for reading purposes only.
 
 ## Dependencies
